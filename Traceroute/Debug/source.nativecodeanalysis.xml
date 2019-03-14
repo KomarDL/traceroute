@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\проекты\семестр 4\ксис\</FILEPATH>
+      <FILENAME>source.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Попробуйте использовать "GetTickCount64" вместо "GetTickCount". Причина: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>decodeReply</FUNCTION>
+    <DECORATED>?decodeReply@@YAHPAUIP@@PAUsockaddr_in@@GKPAUPacketinfo@@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
