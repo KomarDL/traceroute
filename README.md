@@ -1,2 +1,2 @@
 # Traceroute
-Analogue of tracert on C using raw sockets
+Analogue of tracert in C using raw sockets
